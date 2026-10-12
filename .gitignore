@@ -1,0 +1,27 @@
+# Environment variables
+.env
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Google Cloud Service Account credentials & tokens
+*.json
+!assets/*.json
+service_account*.json
+credentials.json
+client_secret*.json
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
